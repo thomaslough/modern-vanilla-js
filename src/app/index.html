@@ -1,0 +1,13 @@
+<html>
+  <head>
+  	<title>Modern Vanilla JS</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Modern Vanilla JS</h1>
+      <p>Uses babel, eslint and prettier to make your project vanilla and modern.</p>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
